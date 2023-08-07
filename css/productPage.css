@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "Wondershine";
+    src: url(/assets/fonts/Wondershine.ttf);
+}
+@font-face {
+    font-family: "poppinsRegular";
+    src: url(/assets/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "poppinsSemiBold";
+    src: url(/assets/fonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: "poppinsBold";
+    src: url(/assets/fonts/Poppins-Bold.ttf);
+}
+.ff_wondershine {
+    font-family: "Wondershine";
+}
+.ff_poppins_reg {
+    font-family: "poppinsRegular";
+}
+.ff_poppins_semi_blod {
+    font-family: "poppinsSemiBold";
+}
+.ff_poppins_bold {
+    font-family: "poppinsBold";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+:root {
+    --fs-sm: 12px;
+    --fs-md: 16px;
+    --fs-xmd: 18px;
+    --fs-lmd: 20px;
+    --fs-lg: 24px;
+    --fs-xlg: 28px;
+    --fs-xl: 40px;
+    --fs-xxl: 48px;
+    --bg-main: #d7d9d4;
+    /* --bg-second: #adadad; */
+    --bg-second: #cfe6d0;
+    --bg-third: rgb(247, 44, 196);
+    --text-main: black;
+}
+.fs_sm {
+    font-size: var(--fs-sm);
+}
+.fs_md {
+    font-size: var(--fs-md);
+}
+.fs_xmd {
+    font-size: var(--fs-xmd);
+}
+.fs_lmd {
+    font-size: var(--fs-lmd);
+}
+.fs_lg {
+    font-size: var(--fs-lg);
+}
+.fs_xlg {
+    font-size: var(--fs-xlg);
+}
+.fs_xl {
+    font-size: var(--fs-xl);
+}
+.fs_xxl {
+    font-size: var(--fs-xxl);
+}
+.bg_main {
+    background-color: var(--bg-main);
+}
+.bg_second {
+    background-color: var(--bg-second);
+}
+.color_second {
+    color: var(--bg-second);
+}
+.color_third {
+    color: var(--bg-third);
+}
+.text_main {
+    color: var(--text-main);
+}
+
+body {
+    background-color: var(--bg-main);
+}
+
+.boxShadow {
+    /* box-shadow: 1px 1px 6px black; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* footer */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul > li {
+    padding: 4px;
+    color: #3a3b3d;
+}
+
+ul > li:hover {
+    color: #957bda;
+    cursor: pointer;
+}
+
+hr {
+    border-width: 3px;
+}
+
+.f_card {
+    padding: 2% 7%;
+}
+
+.social > i {
+    padding: 1%;
+    font-size: 15px;
+}
+
+.social > i:hover {
+    color: #957bda;
+    cursor: pointer;
+}
+
+.policy > div {
+    padding: 4px;
+}
+
+.heading {
+    font-family: "Titillium Web", sans-serif;
+    color: black;
+}
+
+.divider {
+    border-top: 2px solid;
+}
