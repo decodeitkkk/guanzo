@@ -1,159 +1,72 @@
 @font-face {
-    font-family: "Wondershine";
-    src: url(/assets/fonts/Wondershine.ttf);
+    font-family: "PlayfairDisplay900";
+    src: url(../assets/fonts/PlayfairDisplay-ExtraBold.ttf);
 }
 @font-face {
-    font-family: "poppinsRegular";
-    src: url(/assets/fonts/Poppins-Regular.ttf);
+    font-family: "PlayfairDisplay800";
+    src: url(../assets/fonts/PlayfairDisplay-Medium.ttf);
 }
 @font-face {
-    font-family: "poppinsSemiBold";
-    src: url(/assets/fonts/Poppins-SemiBold.ttf);
+    font-family: "montserrat_med";
+    src: url(../assets/fonts/Montserrat-Medium.ttf);
 }
 @font-face {
-    font-family: "poppinsBold";
-    src: url(/assets/fonts/Poppins-Bold.ttf);
+    font-family: "montserrat_reg";
+    src: url(../assets/fonts/Montserrat-Regular.ttf);
 }
-.ff_wondershine {
-    font-family: "Wondershine";
-}
-.ff_poppins_reg {
-    font-family: "poppinsRegular";
-}
-.ff_poppins_semi_blod {
-    font-family: "poppinsSemiBold";
-}
-.ff_poppins_bold {
-    font-family: "poppinsBold";
-}
-
 * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
     box-sizing: border-box;
-    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 :root {
-    --fs-sm: 12px;
-    --fs-md: 16px;
-    --fs-xmd: 18px;
-    --fs-lg: 24px;
-    --fs-xlg: 28px;
-    --fs-xl: 40px;
-    --fs-xxl: 48px;
-    --bg-main: #d7d9d4;
-    --bg-second: #b6b5b4;
-    --text-main: black;
-    --bluish: rgba(119, 119, 255, 0.712);
+    --bg-sirpi: #f5efee;
+    --bg-brown: #785546;
 }
-.fs_sm {
-    font-size: var(--fs-sm);
+.bg_brown {
+    background-color: var(--bg-brown);
 }
-.fs_md {
-    font-size: var(--fs-md);
+.bg_sirpi {
+    background-color: var(--bg-sirpi);
 }
-.fs_xmd {
-    font-size: var(--fs-xmd);
+.i_h1 {
+    font-family: "PlayfairDisplay900";
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 110px;
+    letter-spacing: 0em;
 }
-.fs_lg {
-    font-size: var(--fs-lg);
+.i_h2 {
+    font-family: "PlayfairDisplay800";
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-bottom: 20px;
+    letter-spacing: 0em;
 }
-.fs_xlg {
-    font-size: var(--fs-xlg);
+.i_h3 {
+    font-family: "PlayfairDisplay800";
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 24px;
+    letter-spacing: 0em;
 }
-.fs_xl {
-    font-size: var(--fs-xl);
+.i_p {
+    font-family: "montserrat_med";
+    font-weight: 100;
+    line-height: 22px;
 }
-.fs_xxl {
-    font-size: var(--fs-xxl);
-}
-.bg_main {
-    background-color: var(--bg-main);
-}
-.bg_second {
-    background-color: var(--bg-second);
-}
-.color_second {
-    color: var(--bg-second);
-}
-.text_main {
-    color: var(--text-main);
+.i_p_bold {
+    font-family: "montserrat_reg";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
 }
 
-body {
-    background-color: var(--bg-main);
+.boxShadow {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-
-/* testimonial section  */
-.blockquote-custom {
-    position: relative;
-    font-size: 1.1rem;
-}
-
-.blockquote-custom-icon {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: -25px;
-    left: 50px;
-}
-
-/*---------------------------------------------------------footer */
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-ul > li {
-    padding: 4px;
-    color: #3a3b3d;
-}
-
-ul > li:hover {
-    color: #957bda;
-    cursor: pointer;
-}
-
-hr {
-    border-width: 3px;
-}
-
-.social > i {
-    padding: 1%;
-    font-size: 15px;
-}
-
-.social > i:hover {
-    color: #957bda;
-    cursor: pointer;
-}
-
-.policy > div {
-    padding: 4px;
-}
-
-.heading {
-    font-family: "Titillium Web", sans-serif;
-    color: black;
-}
-
-.divider {
-    border-top: 2px solid;
-}
-
-/* ------------------------------------------------------about Page */
-.pointers ul li {
-    transition: transform 0.5s ease;
-}
-.pointers ul li:hover {
-    transform: translateX(4%);
-}
-
-/* product category page css */
