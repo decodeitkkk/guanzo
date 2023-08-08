@@ -12,7 +12,10 @@ h6,
 .h6 {
     color: #000;
 }
-
+@font-face {
+    font-family: "montserrat_reg";
+    src: url(../assets/fonts/Montserrat-Regular.ttf);
+}
 a {
     -webkit-transition: 0.3s all ease;
     -o-transition: 0.3s all ease;
@@ -40,13 +43,22 @@ a:hover {
     border: none;
     background: #f3f3f3;
 }
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding-left: 5px;
+    padding-right: 0;
+    border-radius: 5px 5px 0px 0px;
+    background: none;
+}
 .form-control:active,
 .form-control:focus {
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none;
     border-color: #000;
-    background: #f3f3f3;
+    font-family: "montserrat_reg";
 }
 
 .col-form-label {
@@ -71,7 +83,7 @@ a:hover {
     padding: 15px 20px;
 }
 .btn:hover {
-    color: #fff;
+    color: black;
 }
 .btn:active,
 .btn:focus {

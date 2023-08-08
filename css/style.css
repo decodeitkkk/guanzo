@@ -52,6 +52,13 @@
     line-height: 24px;
     letter-spacing: 0em;
 }
+.nav_i_h3 {
+    font-family: "PlayfairDisplay800";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+}
 .i_p {
     font-family: "montserrat_med";
     font-weight: 100;
@@ -65,6 +72,37 @@
     text-align: left;
 }
 
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .i_h1 {
+        font-size: 40px;
+        line-height: 80px;
+    }
+
+    .i_h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .i_h3 {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .i_p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .i_p_bold {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .b_card_width {
+        width: 14rem;
+    }
+}
+
 .boxShadow {
     /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
         rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
@@ -74,4 +112,13 @@
     /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
         rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
         rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+}
+.h_up {
+    transition: transform 0.5s;
+}
+.h_up:hover {
+    transform: translateY(-15px);
+}
+.fs_64 {
+    font-size: 64px;
 }
