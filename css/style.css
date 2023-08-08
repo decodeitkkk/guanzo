@@ -122,3 +122,15 @@
 .fs_64 {
     font-size: 64px;
 }
+
+/* Add your custom styles here */
+.preheading {
+    /* background-color: #f0f0f0; */
+    /* text-align: center; */
+    padding: 5px;
+}
+
+.navbar {
+    margin-top: 0;
+    /* Remove the default margin */
+}
