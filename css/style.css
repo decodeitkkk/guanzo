@@ -24,6 +24,10 @@
     /* --bg-sirpi: #f5efee; */
     --bg-sirpi: #f3f3f4;
     --bg-brown: #785546;
+    --bg-orange: #ee844f;
+}
+.bg_orange {
+    background-color: var(--bg-orange);
 }
 .bg_brown {
     background-color: var(--bg-brown);
@@ -208,8 +212,8 @@
     transform: translateY(2px);
 }
 
-#preloader {
-    /* background-color: #111111;
+/* #preloader { */
+/* background-color: #111111;
     background-image: url(../assets/Final\ Creative\ Shots/loading.gif);
     background-position: center center;
     background-repeat: no-repeat;
@@ -218,4 +222,4 @@
     width: 100%;
     position: fixed;
     z-index: 3; */
-}
+/* } */
