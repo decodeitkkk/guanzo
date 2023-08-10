@@ -209,7 +209,7 @@
 }
 
 #preloader {
-    background-color: #111111;
+    /* background-color: #111111;
     background-image: url(../assets/Final\ Creative\ Shots/loading.gif);
     background-position: center center;
     background-repeat: no-repeat;
@@ -217,5 +217,5 @@
     height: 100vh;
     width: 100%;
     position: fixed;
-    z-index: 3;
+    z-index: 3; */
 }
