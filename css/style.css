@@ -207,3 +207,15 @@
     box-shadow: #d6d6e7 0 3px 7px inset;
     transform: translateY(2px);
 }
+
+#preloader {
+    background-color: #111111;
+    background-image: url(../assets/Final\ Creative\ Shots/loading.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 5%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+}
