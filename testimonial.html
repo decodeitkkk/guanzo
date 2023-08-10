@@ -14,7 +14,7 @@
 
 <body>
     <!-------------------------------------------< PreHeading >------------------------------------>
-    <div class="preheading bg_sirpi d-flex justify-content-between ">
+    <div class="preheading fixed-top  bg_sirpi d-flex justify-content-between ">
 
         <span class="text-start">
             <span class="mx-2"> <i class="fa fa-envelope" aria-hidden="true"></i>
@@ -34,7 +34,7 @@
         </span>
     </div>
     <!-----------------------------< NAVBAR >-------------------------------->
-    <nav class="navbar navbar-expand-lg bg_brown navbar-dark ">
+    <nav style="margin-top: 30px;" class="navbar fixed-top  navbar-expand-lg bg_brown navbar-dark ">
         <div class="container-fluid">
             <a href='index.html'>
                 <img src="assets/Final Creative Shots/logo-guanzo.png" style="max-height: 50px; " alt="">
@@ -52,8 +52,27 @@
                     <li class="nav-item">
                         <a class="nav-link nav_i_h3 " href="hairsci.html">Hair Science</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav_i_h3   " href="products.html">Products</a>
+                    <li class="nav-item nav_i_h3 dropdown">
+                        <a class="nav-link dropdown-toggle" href="products.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu bg_sirpi">
+                            <li><a class="dropdown-item  " href="products.html">Hair Shampoos</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item  " href="products.html">Hair Syrums</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item  " href="products.html">Hair conditioner</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item  " href="products.html">Hair Dryers </a></li>
+
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link nav_i_h3 active " href="testimonial.html">Testimonials</a>
@@ -68,6 +87,7 @@
             </div>
         </div>
     </nav>
+    <div style="height: 90px;">.</div>
     <!-----------------------------< SLIDER >-------------------------------->
 
 
@@ -354,7 +374,7 @@
 
     <!--=====================================< FOOTER STARTS HERE >==========================-->
 
-    <footer class="text-center text-dark bg_sirpi ">
+    <footer class="text-center text-light bg_black ">
         <!-- Grid container -->
         <div class="container">
             <!-- Section: Links -->
@@ -364,7 +384,7 @@
                     <!-- Grid column -->
                     <div class="col-md-2">
                         <h6 class="text-uppercase font-weight-bold">
-                            <a href="#!" class="text-dark text-decoration-none ">About us</a>
+                            <a href="#!" class="text-light text-decoration-none ">About us</a>
                         </h6>
                     </div>
                     <!-- Grid column -->
@@ -372,7 +392,7 @@
                     <!-- Grid column -->
                     <div class="col-md-2">
                         <h6 class="text-uppercase font-weight-bold">
-                            <a href="#!" class="text-dark text-decoration-none ">Products</a>
+                            <a href="#!" class="text-light text-decoration-none ">Products</a>
                         </h6>
                     </div>
                     <!-- Grid column -->
@@ -380,7 +400,7 @@
                     <!-- Grid column -->
                     <div class="col-md-2">
                         <h6 class="text-uppercase font-weight-bold">
-                            <a href="#!" class="text-dark text-decoration-none ">Awards</a>
+                            <a href="#!" class="text-light text-decoration-none ">Awards</a>
                         </h6>
                     </div>
                     <!-- Grid column -->
@@ -388,7 +408,7 @@
                     <!-- Grid column -->
                     <div class="col-md-2">
                         <h6 class="text-uppercase font-weight-bold">
-                            <a href="#!" class="text-dark text-decoration-none ">Help</a>
+                            <a href="#!" class="text-light text-decoration-none ">Help</a>
                         </h6>
                     </div>
                     <!-- Grid column -->
@@ -396,7 +416,7 @@
                     <!-- Grid column -->
                     <div class="col-md-2">
                         <h6 class="text-uppercase font-weight-bold">
-                            <a href="#!" class="text-dark text-decoration-none ">Contact</a>
+                            <a href="#!" class="text-light text-decoration-none ">Contact</a>
                         </h6>
                     </div>
                     <!-- Grid column -->
@@ -426,24 +446,14 @@
 
             <!-- Section: Social -->
             <section class="text-center mb-5">
-                <a href="#" class="text-dark text-decoration-none me-4">
-                    <i class="fa-brands fa-google"></i>
-                </a>
-                <a href="#" class="text-dark text-decoration-none me-4">
+                <a href="#" class="text-light text-decoration-none me-4">
                     <i class="fa-brands fa-facebook-f"></i>
                 </a>
-                <a href="#" class="text-dark text-decoration-none me-4">
+                <a href="#" class="text-light text-decoration-none me-4">
                     <i class="fa-brands fa-x-twitter"></i>
                 </a>
-                <a href="#" class="text-dark text-decoration-none me-4">
+                <a href="#" class="text-light text-decoration-none me-4">
                     <i class="fab fa-instagram"></i>
-                </a>
-                <a href="#" class="text-dark text-decoration-none me-4">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-
-                <a href="#" class="text-dark text-decoration-none me-4">
-                    <i class="fab fa-github"></i>
                 </a>
             </section>
             <!-- Section: Social -->
@@ -451,7 +461,7 @@
         <!-- Grid container -->
 
         <!-- Copyright -->
-        <div class="text-center i_p p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        <div class="text-center i_p p-3">
             © Copyright 2023
         </div>
 

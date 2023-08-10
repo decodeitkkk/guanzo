@@ -21,7 +21,8 @@
 }
 
 :root {
-    --bg-sirpi: #f5efee;
+    /* --bg-sirpi: #f5efee; */
+    --bg-sirpi: #f3f3f4;
     --bg-brown: #785546;
 }
 .bg_brown {
@@ -72,8 +73,29 @@
     /* text-align: left; */
 }
 
-/* Responsive Styles */
+.active {
+    /* background-color: red; */
+
+    border: none;
+    border-bottom: 1px solid #f3f3f7;
+    /* border: 1px 0px 0px 0px solid black; */
+}
+.bg_black {
+    background-color: #111111;
+}
+.car_arr {
+    margin-top: -56px;
+}
+.dropdown-toggle::after {
+    margin-left: -3px;
+    vertical-align: 0.2em;
+}
+
+/*================================================Responsive Styles */
 @media screen and (max-width: 768px) {
+    .car_arr {
+        margin-top: 0px;
+    }
     .i_h1 {
         font-size: 40px;
         line-height: 80px;

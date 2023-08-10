@@ -43,7 +43,7 @@
 
 <body>
     <!-------------------------------------------< PreHeading >------------------------------------>
-    <div class="preheading bg_sirpi d-flex justify-content-between ">
+    <div class="preheading text-dark bg_sirpi  d-flex fixed-top  justify-content-between ">
 
         <span class="text-start">
             <span class="mx-2"> <i class="fa fa-envelope" aria-hidden="true"></i>
@@ -62,8 +62,9 @@
             </a>
         </span>
     </div>
+
     <!-----------------------------< NAVBAR >-------------------------------->
-    <nav class="navbar navbar-expand-lg bg_brown navbar-dark z-2 ">
+    <nav style="margin-top: 30px;" class="navbar navbar-expand-lg bg_brown fixed-top  navbar-dark z-2 ">
 
         <div class="container-fluid">
 
@@ -85,8 +86,27 @@
                     <li class="nav-item">
                         <a class="nav-link nav_i_h3 " href="hairsci.html">Hair Science</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav_i_h3 " href="products.html">Products</a>
+                    <li class="nav-item nav_i_h3 dropdown">
+                        <a class="nav-link dropdown-toggle" href="products.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu bg_sirpi ">
+                            <li><a class="dropdown-item  " href="products.html">Hair Shampoos</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item  " href="products.html">Hair Syrums</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item  " href="products.html">Hair conditioner</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item  " href="products.html">Hair Dryers </a></li>
+
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link nav_i_h3 " href="testimonial.html">Testimonials</a>
@@ -101,7 +121,7 @@
             </div>
         </div>
     </nav>
-
+    <div style="height: 90px;">.</div>
     <!-----------------------------< SLIDER >-------------------------------->
     <section>
         <div class="container-fluid mb-0 mb-md-1 ">
@@ -150,11 +170,13 @@
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <button class=" car_arr carousel-control-prev " type="button" data-bs-target="#carouselExample"
+                data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <button class=" car_arr carousel-control-next " type="button" data-bs-target="#carouselExample"
+                data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -183,129 +205,144 @@
             <div class="row  d-flex justify-content-center align-items-center ">
 
                 <div data-aos="fade-down" class=" boxShadow card m-3 my-4  b_card_width ">
-                    <img src="assets/White-Background/3-Smooth-Shampoo-Bottle-Front.jpg"
-                        style="max-width:250px; max-height:250px;   " class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title i_h3 mb-3 ">Hair Spa Keratine</h5>
+                    <a href="pages/HairSpaKeratine.html" class="text-black">
+                        <img src="assets/White-Background/3-Smooth-Shampoo-Bottle-Front.jpg"
+                            style="max-width:250px; max-height:250px;   " class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title i_h3 mb-3 ">Hair Spa Keratine</h5>
 
-                        <p class="card-text i_p ">Some quick example text to build on the card title and make up
-                            the bulk of the
-                            card's
-                            content<span><a href="pages/HairSpaKeratine.html">...read more</a></span></p>
+                            <p class="card-text i_p ">Some quick example text to build on the card title and make up
+                                the bulk of the
+                                card's
+                                content<span><a href="pages/HairSpaKeratine.html">...read more</a></span></p>
 
-                        <!-- <button class="btn w-100 btn-outline-warning "><a style=" color:white; text-decoration: none;"
+                            <!-- <button class="btn w-100 btn-outline-warning "><a style=" color:white; text-decoration: none;"
                                 href="pages/HairSpaKeratine.html"> Read
                                 More </a></button> -->
-                    </div>
+                        </div>
+                    </a>
                 </div>
 
-
                 <div data-aos="fade-down" class=" boxShadow card m-3 my-4  b_card_width ">
-                    <img src="assets/White-Background/4-Smooth-Conditioner-Bottle-Box-Front.jpg"
-                        style="max-width:250px; max-height:250px;" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title i_h3 mb-3 ">Smooth Conditioner </h5>
+                    <a href="pages/conditioner.html" class="text-black">
+                        <img src="assets/White-Background/4-Smooth-Conditioner-Bottle-Box-Front.jpg"
+                            style="max-width:250px; max-height:250px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title i_h3 mb-3 ">Smooth Conditioner </h5>
 
-                        <p class="card-text i_p ">Some quick example text to build on the card title and make up
-                            the bulk of the
-                            card's
-                            content<span><a href="pages/conditioner.html">...read more</a></span> </p>
-                        <!-- <button class="btn w-100 btn-dark bg_brown "><a style=" color:white; text-decoration: none;"
+                            <p class="card-text i_p ">Some quick example text to build on the card title and make up
+                                the bulk of the
+                                card's
+                                content<span><a href="pages/conditioner.html">...read more</a></span> </p>
+                            <!-- <button class="btn w-100 btn-dark bg_brown "><a style=" color:white; text-decoration: none;"
                                 href="pages/conditioner.html"> Read More </a></button> -->
-                    </div>
+                        </div>
+                    </a>
                 </div>
 
                 <div data-aos="fade-down" class=" boxShadow card m-3 my-4  b_card_width ">
-                    <img src="assets/White-Background/Black-Hair-Spray-Front.jpg"
-                        style="max-width:250px; max-height:250px;" class="card-img-top " alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title i_h3 mb-3 ">Black Hair Spray</h5>
+                    <a href="pages/black-spray.html" class="text-black">
+                        <img src="assets/White-Background/Black-Hair-Spray-Front.jpg"
+                            style="max-width:250px; max-height:250px;" class="card-img-top " alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title i_h3 mb-3 ">Black Hair Spray</h5>
 
-                        <p class="card-text i_p ">Some quick example text to build on the card title and make up
-                            the bulk of the
-                            card's
-                            content<span><a href="pages/black-spray.html">...read more</a></span> </p>
-                        <!-- <button class="btn w-100 btn-dark bg_brown "><a style=" color:white; text-decoration: none;"
+                            <p class="card-text i_p ">Some quick example text to build on the card title and make up
+                                the bulk of the
+                                card's
+                                content<span><a href="pages/black-spray.html">...read more</a></span> </p>
+                            <!-- <button class="btn w-100 btn-dark bg_brown "><a style=" color:white; text-decoration: none;"
                                 href="pages/black-spray.html"> Read More </a></button> -->
-                    </div>
+                        </div>
+                    </a>
                 </div>
 
                 <div data-aos="fade-down" class=" boxShadow card m-3 my-4  b_card_width ">
-                    <img src="assets/White-Background/4-Smooth-Conditioner-Box-Front.jpg"
-                        style="max-width:250px; max-height:250px;" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title i_h3 mb-3 ">Hair Conditioner </h5>
+                    <a href="pages/HairSpaKeratine.html" class="text-black">
+                        <img src="assets/White-Background/4-Smooth-Conditioner-Box-Front.jpg"
+                            style="max-width:250px; max-height:250px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title i_h3 mb-3 ">Hair Conditioner </h5>
 
-                        <p class="card-text i_p ">Some quick example text to build on the card title and make up
-                            the bulk of the
-                            card's
-                            content<span><a href="pages/HairSpaKeratine.html">...read more</a></span> </p>
-                        <!-- <button class="btn w-100 btn-dark bg_brown "><a style=" color:white; text-decoration: none;"
+                            <p class="card-text i_p ">Some quick example text to build on the card title and make up
+                                the bulk of the
+                                card's
+                                content<span><a href="pages/HairSpaKeratine.html">...read more</a></span> </p>
+                            <!-- <button class="btn w-100 btn-dark bg_brown "><a style=" color:white; text-decoration: none;"
                                 href="pages/HairSpaKeratine.html"> Read More </a></button> -->
-                    </div>
+                        </div>
+                    </a>
                 </div>
 
                 <div data-aos="fade-down" class=" boxShadow card m-3 my-4  b_card_width ">
-                    <img src="assets/White-Background/Keratin-Treatment-Onion-Oil-Flax-Seed-Front.jpg"
-                        style="max-height:250px; max-width:250px;" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title i_h3 mb-3 ">Hair Spa Onion Oil</h5>
+                    <a href="pages/HairSpaOnion.html" class="text-black">
+                        <img src="assets/White-Background/Keratin-Treatment-Onion-Oil-Flax-Seed-Front.jpg"
+                            style="max-height:250px; max-width:250px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title i_h3 mb-3 ">Hair Spa Onion Oil</h5>
 
-                        <p class="card-text i_p ">Some quick example text to build on the card title and make up
-                            the bulk of the
-                            card's
-                            content<span><a href="pages/HairSpaOnion.html">...read more</a></span> </p>
+                            <p class="card-text i_p ">Some quick example text to build on the card title and make up
+                                the bulk of the
+                                card's
+                                content<span><a href="pages/HairSpaOnion.html">...read more</a></span> </p>
 
-                        <!-- <button class="btn w-100 btn-dark bg_brown "><a style=" color:white; text-decoration: none;"
+                            <!-- <button class="btn w-100 btn-dark bg_brown "><a style=" color:white; text-decoration: none;"
                                 href="pages/HairSpaOnion.html"> Read More </a></button> -->
-                    </div>
+                        </div>
                 </div>
+                </a>
 
                 <div data-aos="fade-down" class=" boxShadow card m-3 my-4  b_card_width ">
-                    <img src="assets/White-Background/Keratin-Treatment-Tea-Tree-Front.jpg"
-                        style="max-height:250px; max-width:250px;" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title i_h3 mb-3 ">Hair Spa Tea Tree </h5>
+                    <a href="pages/HairSpaTea.html" class="text-black">
+                        <img src="assets/White-Background/Keratin-Treatment-Tea-Tree-Front.jpg"
+                            style="max-height:250px; max-width:250px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title i_h3 mb-3 ">Hair Spa Tea Tree </h5>
 
-                        <p class="card-text i_p ">Some quick example text to build on the card title and make up
-                            the bulk of the
-                            card's
-                            content<span><a href="pages/HairSpaTea.html">...read more</a></span> </p>
-                        <!-- <button class="btn w-100 btn-dark bg_brown "><a style=" color:white; text-decoration: none;"
+                            <p class="card-text i_p ">Some quick example text to build on the card title and make up
+                                the bulk of the
+                                card's
+                                content<span><a href="pages/HairSpaTea.html">...read more</a></span> </p>
+                            <!-- <button class="btn w-100 btn-dark bg_brown "><a style=" color:white; text-decoration: none;"
                                 href="pages/HairSpaTea.html"> Read More </a></button> -->
-                    </div>
+                        </div>
+                    </a>
                 </div>
 
                 <div data-aos="fade-down" class=" boxShadow card m-3 my-4  b_card_width ">
-                    <img src="assets/White-Background/Moving-Sprey-Red-Front.jpg"
-                        style="max-height:250px; max-width:250px;" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title i_h3 mb-3 "> Red Hair Spray </h5>
+                    <a href="pages/RedSpray.html" class="text-black">
+                        <img src="assets/White-Background/Moving-Sprey-Red-Front.jpg"
+                            style="max-height:250px; max-width:250px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title i_h3 mb-3 "> Red Hair Spray </h5>
 
-                        <p class="card-text i_p ">Some quick example text to build on the card title and make up
-                            the bulk of the
-                            card's
-                            content<span><a href="pages/RedSpray.html">...read more</a></span> </p>
-                        <!-- <button class="btn w-100 btn-dark bg_brown "> <a style=" color:white; text-decoration: none;"
+                            <p class="card-text i_p ">Some quick example text to build on the card title and make up
+                                the bulk of the
+                                card's
+                                content<span><a href="pages/RedSpray.html">...read more</a></span> </p>
+                            <!-- <button class="btn w-100 btn-dark bg_brown "> <a style=" color:white; text-decoration: none;"
                                 href="pages/RedSpray.html"> Read More </a>
                         </button> -->
-                    </div>
+                        </div>
                 </div>
+                </a>
 
                 <div data-aos="fade-down" class=" boxShadow card m-3 my-4  b_card_width ">
-                    <img src="assets/White-Background/Smooth-Protection-Jar-02-Front.jpg"
-                        style="max-height:250px; max-width:250px;" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title i_h3 mb-3 ">Hair Spa Serum</h5>
-                        <p class="card-text i_p ">Some quick example text to build on the card title and make
-                            up the bulk of the
-                            card's
-                            content<span><a href="pages/HairSyrum.html">...read more</a></span> </p>
-                        <!-- <button class="btn btn-success w-100 btn-dark bg_brown "><a
+                    <a href="pages/HairSyrum.html" class="text-black">
+                        <img src="assets/White-Background/Smooth-Protection-Jar-02-Front.jpg"
+                            style="max-height:250px; max-width:250px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title i_h3 mb-3 ">Hair Spa Serum</h5>
+                            <p class="card-text i_p ">Some quick example text to build on the card title and make
+                                up the bulk of the
+                                card's
+                                content<span><a href="pages/HairSyrum.html">...read more</a></span> </p>
+                            <!-- <button class="btn btn-success w-100 btn-dark bg_brown "><a
                                 style=" color:white; text-decoration: none;" href="pages/HairSyrum.html"> Read
                                 More
                             </a></button> -->
-                    </div>
+                        </div>
+                    </a>
                 </div>
 
 
@@ -567,17 +604,17 @@
 
     <!--=====================================< FOOTER STARTS HERE >==========================-->
 
-    <footer class="text-center text-dark bg_sirpi ">
+    <footer class="text-center bg_black text-light    ">
         <!-- Grid container -->
         <div class="container">
             <!-- Section: Links -->
             <section class="">
                 <!-- Grid row-->
-                <div class="row text-center d-flex justify-content-center pt-5">
+                <div class="row text-center d-flex justify-content-center pt-4">
                     <!-- Grid column -->
                     <div class="col-md-2">
                         <h6 class="text-uppercase font-weight-bold">
-                            <a href="about.html" class="text-dark text-decoration-none ">About us</a>
+                            <a href="about.html" class="text-light text-decoration-none ">About us</a>
                         </h6>
                     </div>
                     <!-- Grid column -->
@@ -585,19 +622,19 @@
                     <!-- Grid column -->
                     <div class="col-md-2">
                         <h6 class="text-uppercase font-weight-bold">
-                            <a href="products.html" class="text-dark text-decoration-none ">Products</a>
+                            <a href="products.html" class="text-light text-decoration-none ">Products</a>
                         </h6>
                     </div>
                     <!-- Grid column -->
                     <div class="col-md-2">
                         <h6 class="text-uppercase font-weight-bold">
-                            <a href="contact.html" class="text-dark text-decoration-none ">Contact</a>
+                            <a href="contact.html" class="text-light text-decoration-none ">Contact</a>
                         </h6>
                     </div>
                     <!-- Grid column -->
                     <div class="col-md-2">
                         <h6 class="text-uppercase font-weight-bold">
-                            <a href="hairsci.html" class="text-dark text-decoration-none ">Hair Science</a>
+                            <a href="hairsci.html" class="text-light text-decoration-none ">Hair Science</a>
                         </h6>
                     </div>
                     <!-- Grid column -->
@@ -605,7 +642,7 @@
                     <!-- Grid column -->
                     <div class="col-md-2">
                         <h6 class="text-uppercase font-weight-bold">
-                            <a href="about.html" class="text-dark text-decoration-none ">About</a>
+                            <a href="about.html" class="text-light text-decoration-none ">About</a>
                         </h6>
                     </div>
                     <!-- Grid column -->
@@ -619,13 +656,13 @@
             <!-- Section: Links -->
         </div>
 
-        <hr class="" />
+        <hr />
         <div class="container">
             <!-- Section: Text -->
             <section class="">
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-8">
-                        <img src="/assets//Final Creative Shots/logo-guanzo.png" class="w-25" alt="">
+                        <img src="assets//Final Creative Shots/logo-guanzo.png" class="w-25 bg_sirpi " alt="">
                         <p class="i_p">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
                             distinctio earum repellat quaerat voluptatibus placeat nam,
@@ -640,13 +677,13 @@
             <!-- Section: Social -->
             <section class="text-center mb-5">
 
-                <a href="#" class="text-dark text-decoration-none me-4">
+                <a href="#" class="text-light text-decoration-none me-4">
                     <i class="fa-brands fa-facebook-f"></i>
                 </a>
-                <a href="#" class="text-dark text-decoration-none me-4">
+                <a href="#" class="text-light text-decoration-none me-4">
                     <i class="fa-brands fa-x-twitter"></i>
                 </a>
-                <a href="#" class="text-dark text-decoration-none me-4">
+                <a href="#" class="text-light text-decoration-none me-4">
                     <i class="fab fa-instagram"></i>
                 </a>
 
@@ -654,9 +691,9 @@
             <!-- Section: Social -->
         </div>
         <!-- Grid container -->
-
         <!-- Copyright -->
-        <div class="text-center i_p p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        <hr />
+        <div class="text-center i_p p-3 bg_black ">
             © Copyright 2023
         </div>
 

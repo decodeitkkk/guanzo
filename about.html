@@ -14,7 +14,7 @@
 
 <body>
     <!-------------------------------------------< PreHeading >------------------------------------>
-    <div class="preheading bg_sirpi d-flex justify-content-between ">
+    <div class="preheading bg_sirpi fixed-top d-flex justify-content-between ">
 
         <span class="text-start">
             <span class="mx-2"> <i class="fa fa-envelope" aria-hidden="true"></i>
@@ -34,7 +34,7 @@
         </span>
     </div>
     <!-----------------------------< NAVBAR >-------------------------------->
-    <nav class="navbar navbar-expand-lg bg_brown navbar-dark">
+    <nav style="margin-top: 30px;" class="navbar navbar-expand-lg fixed-top bg_brown navbar-dark">
         <div class="container-fluid">
             <a href='index.html'>
                 <img src="assets/Final Creative Shots/logo-guanzo.png" style="max-height: 50px; " alt="">
@@ -52,9 +52,31 @@
                     <li class="nav-item">
                         <a class="nav-link   nav_i_h3 " href="hairsci.html">Hair Science</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link   nav_i_h3 " href="products.html">Products</a>
+                    <li class="nav-item nav_i_h3 dropdown">
+                        <a class="nav-link dropdown-toggle" href="products.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu bg_sirpi">
+                            <li><a class="dropdown-item  " href="products.html">Hair Shampoos</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item  " href="products.html">Hair Syrums</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item  " href="products.html">Hair conditioner</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item  " href="products.html">Hair Dryers </a></li>
+
+                        </ul>
                     </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link   nav_i_h3 " href="products.html">Products</a>
+                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link   nav_i_h3 " href="testimonial.html">Testimonials</a>
                     </li>
@@ -68,6 +90,7 @@
             </div>
         </div>
     </nav>
+    <div style="height: 90px;">.</div>
 
     <!-----------------------------< TITLE >-------------------------------->
     <section>
@@ -158,7 +181,7 @@
 
     <!--=====================================< FOOTER STARTS HERE >==========================-->
 
-    <footer class="text-center text-dark bg_sirpi ">
+    <footer class="text-center text-light   bg_black ">
         <!-- Grid container -->
         <div class="container">
             <!-- Section: Links -->
@@ -168,7 +191,7 @@
                     <!-- Grid column -->
                     <div class="col-md-2">
                         <h6 class="text-uppercase font-weight-bold">
-                            <a href="about.html" class="text-dark text-decoration-none ">About us</a>
+                            <a href="about.html" class="text-light  text-decoration-none ">About us</a>
                         </h6>
                     </div>
                     <!-- Grid column -->
@@ -176,19 +199,19 @@
                     <!-- Grid column -->
                     <div class="col-md-2">
                         <h6 class="text-uppercase font-weight-bold">
-                            <a href="products.html" class="text-dark text-decoration-none ">Products</a>
+                            <a href="products.html" class="text-light  text-decoration-none ">Products</a>
                         </h6>
                     </div>
                     <!-- Grid column -->
                     <div class="col-md-2">
                         <h6 class="text-uppercase font-weight-bold">
-                            <a href="contact.html" class="text-dark text-decoration-none ">Contact</a>
+                            <a href="contact.html" class="text-light  text-decoration-none ">Contact</a>
                         </h6>
                     </div>
                     <!-- Grid column -->
                     <div class="col-md-2">
                         <h6 class="text-uppercase font-weight-bold">
-                            <a href="hairsci.html" class="text-dark text-decoration-none ">Hair Science</a>
+                            <a href="hairsci.html" class="text-light  text-decoration-none ">Hair Science</a>
                         </h6>
                     </div>
                     <!-- Grid column -->
@@ -196,7 +219,7 @@
                     <!-- Grid column -->
                     <div class="col-md-2">
                         <h6 class="text-uppercase font-weight-bold">
-                            <a href="about.html" class="text-dark text-decoration-none ">About</a>
+                            <a href="about.html" class="text-light  text-decoration-none ">About</a>
                         </h6>
                     </div>
                     <!-- Grid column -->
@@ -216,7 +239,7 @@
             <section class="">
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-8">
-                        <img src="assets/Final Creative Shots/logo-guanzo.png" class="w-25" alt="">
+                        <img src="assets/Final Creative Shots/logo-guanzo.png" class="w-25 bg_sirpi " alt="">
                         <p class="i_p">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
                             distinctio earum repellat quaerat voluptatibus placeat nam,
@@ -231,13 +254,13 @@
             <!-- Section: Social -->
             <section class="text-center mb-5">
 
-                <a href="#" class="text-dark text-decoration-none me-4">
+                <a href="#" class="text-light  text-decoration-none me-4">
                     <i class="fa-brands fa-facebook-f"></i>
                 </a>
-                <a href="#" class="text-dark text-decoration-none me-4">
+                <a href="#" class="text-light  text-decoration-none me-4">
                     <i class="fa-brands fa-x-twitter"></i>
                 </a>
-                <a href="#" class="text-dark text-decoration-none me-4">
+                <a href="#" class="text-light  text-decoration-none me-4">
                     <i class="fab fa-instagram"></i>
                 </a>
 
@@ -247,7 +270,8 @@
         <!-- Grid container -->
 
         <!-- Copyright -->
-        <div class="text-center i_p p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        <hr />
+        <div class="text-center i_p p-3">
             © Copyright 2023
         </div>
 
