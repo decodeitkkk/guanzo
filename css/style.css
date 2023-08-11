@@ -60,7 +60,7 @@
 .nav_i_h3 {
     font-family: "PlayfairDisplay800";
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 20px;
     letter-spacing: 0.1em;
 }
@@ -78,17 +78,14 @@
 }
 
 .active {
-    /* background-color: red; */
-
     border: none;
     border-bottom: 1px solid #f3f3f7;
-    /* border: 1px 0px 0px 0px solid black; */
 }
 .bg_black {
     background-color: #111111;
 }
 .car_arr {
-    margin-top: -56px;
+    margin-top: -9%;
 }
 .dropdown-toggle::after {
     margin-left: -3px;
@@ -98,7 +95,7 @@
 /*================================================Responsive Styles */
 @media screen and (max-width: 768px) {
     .car_arr {
-        margin-top: 0px;
+        margin-top: 0%;
     }
     .i_h1 {
         font-size: 40px;
@@ -162,7 +159,6 @@
 }
 
 /* <button class="button-30" role="button">Button 30</button> */
-
 /* CSS */
 .button-30 {
     align-items: center;
@@ -210,6 +206,34 @@
 .button-30:active {
     box-shadow: #d6d6e7 0 3px 7px inset;
     transform: translateY(2px);
+}
+.nav-link {
+    text-transform: uppercase;
+}
+.w-25 {
+    margin-bottom: 1em;
+}
+.dropdown-item {
+    color: white;
+}
+.dropdown-item:hover {
+    margin-left: 20px;
+    overflow: hidden;
+    background-color: transparent;
+    color: whitesmoke;
+}
+.dropdown-divider {
+    background-color: white;
+}
+@media (min-width: 992px) {
+    .dropdown-menu {
+        overflow: hidden;
+        width: 250px;
+        background-color: var(--bg-orange);
+        border: 1px solid var(--bg-orange);
+        color: #d6d6e7;
+        border-radius: 0px;
+    }
 }
 
 /* #preloader { */
