@@ -17,9 +17,9 @@ h6,
     src: url(../assets/fonts/Montserrat-Regular.ttf);
 }
 a {
-    -webkit-transition: 0.3s all ease;
-    -o-transition: 0.3s all ease;
-    transition: 0.3s all ease;
+    -webkit-transition: 0.5s all ease !important ;
+    -o-transition: 0.5s all ease !important;
+    transition: 0.5s all ease !important;
 }
 a,
 a:hover {

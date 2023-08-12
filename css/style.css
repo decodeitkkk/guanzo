@@ -29,6 +29,9 @@
 .bg_orange {
     background-color: var(--bg-orange);
 }
+.t_orange {
+    color: var(--bg-orange);
+}
 .bg_brown {
     background-color: var(--bg-brown);
 }
@@ -58,11 +61,12 @@
     letter-spacing: 0em;
 }
 .nav_i_h3 {
-    font-family: "PlayfairDisplay800";
-    font-size: 20px;
-    font-weight: 600;
+    font-family: "montserrat_reg";
+    font-size: 16px;
+    color: black;
+    font-weight: 100;
     line-height: 20px;
-    letter-spacing: 0.1em;
+    /* letter-spacing: 0.1em; */
 }
 .i_p {
     font-family: "montserrat_med";
@@ -80,12 +84,14 @@
 .active {
     border: none;
     border-bottom: 1px solid #f3f3f7;
+    transition: width 1s ease-in-out, left 1s ease-in-out;
 }
+
 .bg_black {
     background-color: #111111;
 }
 .car_arr {
-    margin-top: -9%;
+    margin-top: -7%;
 }
 .dropdown-toggle::after {
     margin-left: -3px;
@@ -214,13 +220,13 @@
     margin-bottom: 1em;
 }
 .dropdown-item {
-    color: white;
+    color: #111111;
 }
 .dropdown-item:hover {
     margin-left: 20px;
     overflow: hidden;
     background-color: transparent;
-    color: whitesmoke;
+    color: white;
 }
 .dropdown-divider {
     background-color: white;
@@ -232,7 +238,7 @@
         background-color: var(--bg-orange);
         border: 1px solid var(--bg-orange);
         color: #d6d6e7;
-        border-radius: 0px;
+        /* border-radius: 0px; */
     }
 }
 
