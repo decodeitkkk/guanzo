@@ -256,3 +256,10 @@
     position: fixed;
     z-index: 3; */
 /* } */
+@media (min-width: 1440px) {
+    .container-fluid{
+        width:1440px !important;
+
+    }
+}
+
