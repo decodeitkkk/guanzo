@@ -47,7 +47,7 @@
 }
 .i_h2 {
     font-family: "PlayfairDisplay800";
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 400;
     line-height: 50px;
     margin-bottom: 20px;
@@ -257,9 +257,7 @@
     z-index: 3; */
 /* } */
 @media (min-width: 1440px) {
-    .container-fluid{
-        width:1440px !important;
-
+    .container-fluid {
+        width: 1440px !important;
     }
 }
-
