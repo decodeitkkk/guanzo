@@ -261,3 +261,61 @@
         width: 1440px !important;
     }
 }
+
+/* new product page design csss */
+.product-images {
+    display: flex;
+    flex-direction: column;
+    max-height: 450px;
+    /* min-width: 100px; */
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#main-image {
+    max-height: 400px;
+    width: 100%;
+}
+
+.product-image {
+    min-width: 50px;
+    /* Adjust the size as needed */
+    margin: 5px;
+    cursor: pointer;
+}
+
+.product-image:hover {
+    border: 1px solid black;
+    /* Optional: Add a border on hover */
+}
+
+.image-card {
+    max-width: 250px;
+    max-height: 250px;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.image-card img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.image-card:hover img {
+    transform: scale(1.1);
+}
+
+.image-card:hover .hover-image {
+    display: block;
+}
+
+.hover-image {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
