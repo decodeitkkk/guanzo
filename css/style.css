@@ -23,8 +23,10 @@
 :root {
     /* --bg-sirpi: #f5efee; */
     --bg-sirpi: #f3f3f4;
+    /* --bg-sirpi: #dbd3c7; provided by client */
     --bg-brown: #785546;
-    --bg-orange: #ee844f;
+    /* --bg-orange: #ee844f; */
+    --bg-orange: #f5783d;
 }
 .bg_orange {
     background-color: var(--bg-orange);
