@@ -1,10 +1,12 @@
 @font-face {
     font-family: "PlayfairDisplay900";
     src: url(../assets/fonts/PlayfairDisplay-ExtraBold.ttf);
+    color: #482329;
 }
 @font-face {
     font-family: "PlayfairDisplay800";
     src: url(../assets/fonts/PlayfairDisplay-Medium.ttf);
+    color: #482329;
 }
 @font-face {
     font-family: "montserrat_med";
@@ -14,25 +16,60 @@
     font-family: "montserrat_reg";
     src: url(../assets/fonts/Montserrat-Regular.ttf);
 }
+
+/* LATO FONT FACE  */
+@font-face {
+    font-family: "lato_bold";
+    src: url(../assets/lato/Lato-Bold.ttf);
+    color: #4d3d3d;
+}
+@font-face {
+    font-family: "lato_light";
+    src: url(../assets/lato/Lato-Light.ttf);
+    color: #4d3d3d;
+}
+
 * {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
 
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: #f9f7f4;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+.container-fluid .container .section .bg-white .bg-light {
+    background-color: red !important;
+}
+
 :root {
     /* --bg-sirpi: #f5efee; */
-    --bg-sirpi: #f3f3f4;
-    /* --bg-sirpi: #dbd3c7; provided by client */
+    /* --bg-sirpi: #0000ff; */
+    /*--bg-sirpi: #dbd3c7  DBD3C7; /*provided by client*/
     --bg-brown: #785546;
-    /* --bg-orange: #ee844f; */
-    --bg-orange: #f5783d;
+    --bg-orange2: #ee844f;
+    /* --bg-orange: #c4bdab; */
+    --bg-orange: #fff;
+    /* --d_white: #fff9ed; */
+    --d_white: #ffffff;
 }
 .bg_orange {
     background-color: var(--bg-orange);
 }
 .t_orange {
     color: var(--bg-orange);
+}
+.d_white {
+    background-color: var(--d_white);
 }
 .bg_brown {
     background-color: var(--bg-brown);
@@ -57,21 +94,35 @@
 }
 .i_h3 {
     font-family: "PlayfairDisplay800";
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+.i_h4 {
+    font-family: "PlayfairDisplay800";
     font-size: 24px;
     font-weight: 200;
     line-height: 24px;
     letter-spacing: 0em;
 }
-.nav_i_h3 {
-    font-family: "montserrat_reg";
-    font-size: 16px;
-    color: black;
-    font-weight: 100;
+
+.nav_i_h3 text-dark {
+    /* font-family: "montserrat_reg"; */
+    font-family: "lato_thin";
+    font-size: 14px;
+    color: white;
+    /* font-weight: 100; */
     line-height: 20px;
     /* letter-spacing: 0.1em; */
 }
+.active {
+    font-weight: 900;
+    color: var(--bg-orange2) !important;
+}
 .i_p {
-    font-family: "montserrat_med";
+    /* font-family: "montserrat_med"; */
+    font-family: "lato_light";
     font-weight: 300;
     line-height: 22px;
 }
@@ -85,7 +136,7 @@
 
 .active {
     border: none;
-    border-bottom: 1px solid #f3f3f7;
+    /* border-bottom: 1px solid #f3f3f7; */
     transition: width 1s ease-in-out, left 1s ease-in-out;
 }
 
@@ -116,8 +167,8 @@
     }
 
     .i_h3 {
-        font-size: 18px;
-        line-height: 18px;
+        font-size: px;
+        line-height: 22px;
     }
 
     .i_p {
@@ -129,9 +180,9 @@
         font-size: 12px;
         line-height: 16px;
     }
-    .b_card_width {
-        width: 14rem;
-    }
+    /* .b_card_width {
+        width: 30rem;
+    } */
 }
 
 .boxShadow {
@@ -144,6 +195,16 @@
         rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
         rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
 }
+.newShadow:hover {
+    border-radius: 15px;
+    background: #f9f7f4;
+    box-shadow: 0px 4px 7px 3px rgba(0, 0, 0, 0.25);
+}
+.navShadow {
+    /* box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.76)      */
+    border-bottom: 2px solid var(--bg-orange2);
+}
+
 .h_up {
     transition: transform 0.5s;
 }
@@ -223,13 +284,16 @@
     margin-bottom: 1em;
 }
 .dropdown-item {
-    color: #111111;
+    color: #4d3d3d;
+    font-family: "lato_thin";
 }
 .dropdown-item:hover {
     margin-left: 20px;
     overflow: hidden;
     background-color: transparent;
-    color: white;
+    font-family: "lato_bold";
+    font-weight: 900;
+    color: #4d3d3d;
 }
 .dropdown-divider {
     background-color: var(--bg-orange);
@@ -302,7 +366,7 @@
 .image-card img {
     width: 100%;
     height: 100%;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease-in-out;
 }
 
 .image-card:hover img {
@@ -320,4 +384,12 @@
     left: 0;
     width: 100%;
     height: 100%;
+    /* transition: transform 0.3s ease; */
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: var(--bg-orange);
+}
+a {
+    color: var(--bg-orange2);
 }
