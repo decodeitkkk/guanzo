@@ -9,12 +9,21 @@
     color: #482329;
 }
 @font-face {
+    font-family: "PlayfairDisplay300";
+    src: url(../assets/fonts/PlayfairDisplay-Regular.ttf);
+    color: #482329;
+}
+@font-face {
     font-family: "montserrat_med";
     src: url(../assets/fonts/Montserrat-Medium.ttf);
 }
 @font-face {
     font-family: "montserrat_reg";
     src: url(../assets/fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: "avenir_reg";
+    src: url(../assets/fonts/AvenirLTStd-Book.otf);
 }
 
 /* LATO FONT FACE  */
@@ -87,15 +96,17 @@ body {
 .i_h2 {
     font-family: "PlayfairDisplay800";
     font-size: 40px;
+    /* font-size: 32px; */
     font-weight: 400;
     line-height: 50px;
     margin-bottom: 20px;
     letter-spacing: 0em;
 }
 .i_h3 {
-    font-family: "PlayfairDisplay800";
+    font-family: "PlayfairDisplay300";
+    /* font-family: "avenir_reg"; */
     font-size: 18px;
-    font-weight: 200;
+    font-weight: 300;
     line-height: 20px;
     letter-spacing: 0em;
 }
@@ -108,13 +119,13 @@ body {
 }
 
 .nav_i_h3 {
-    /* font-family: "montserrat_reg"; */
-    font-family: "lato_thin";
+    font-family: "montserrat_reg";
+    /* font-family: "lato_thin"; */
     font-size: 14px;
     color: white;
     /* font-weight: 100; */
     line-height: 20px;
-    /* letter-spacing: 0.1em; */
+    letter-spacing: 0.1em;
 }
 .active {
     font-weight: 900;
@@ -122,12 +133,12 @@ body {
 }
 .i_p {
     /* font-family: "montserrat_med"; */
-    font-family: "lato_light";
+    font-family: "avenir_reg";
     font-weight: 300;
     line-height: 22px;
 }
 .i_p_bold {
-    font-family: "montserrat_reg";
+    font-family: "avenir_reg";
     font-size: 18px;
     font-weight: 600;
     line-height: 18px;
@@ -285,13 +296,15 @@ body {
 }
 .dropdown-item {
     color: #4d3d3d;
-    font-family: "lato_thin";
+    /* font-family: "lato_thin"; */
+    font-family: "montserrat_reg";
 }
 .dropdown-item:hover {
     margin-left: 20px;
     overflow: hidden;
     background-color: transparent;
-    font-family: "lato_bold";
+    font-family: "montserrat_reg";
+    /* font-family: "lato_bold"; */
     font-weight: 900;
     color: #4d3d3d;
 }
@@ -396,4 +409,11 @@ a {
 
 .navbar-toggler {
     background-color: var(--bg-orange2) !important;
+}
+
+.card-img-top {
+    transition-duration: 0.5s;
+}
+.card-img-top:hover {
+    transform: scale(1.2);
 }
