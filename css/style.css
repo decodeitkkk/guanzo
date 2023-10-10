@@ -35,7 +35,16 @@
 @font-face {
     font-family: "lato_light";
     src: url(../assets/lato/Lato-Light.ttf);
-    color: #4d3d3d;
+    /* color: #4d3d3d; */
+}
+
+@font-face {
+    font-family: "Baskvill";
+    src: url(../assets/fonts/BASKVILL.ttf);
+}
+@font-face {
+    font-family: "source_sans_pro";
+    src: url(../assets/Source_Sans_3/static/SourceSans3-Regular.ttf);
 }
 
 * {
@@ -75,7 +84,7 @@ body {
     background-color: var(--bg-orange);
 }
 .t_orange {
-    color: var(--bg-orange);
+    color: var(--bg-orange2);
 }
 .d_white {
     background-color: var(--d_white);
@@ -94,7 +103,8 @@ body {
     letter-spacing: 0em;
 }
 .i_h2 {
-    font-family: "PlayfairDisplay800";
+    /* font-family: "PlayfairDisplay800"; */
+    font-family: "Baskvill";
     font-size: 40px;
     /* font-size: 32px; */
     font-weight: 400;
@@ -103,10 +113,10 @@ body {
     letter-spacing: 0em;
 }
 .i_h3 {
-    font-family: "PlayfairDisplay300";
+    font-family: "Baskvill";
     /* font-family: "avenir_reg"; */
-    font-size: 18px;
-    font-weight: 300;
+    font-size: 22px;
+    font-weight: 400;
     line-height: 20px;
     letter-spacing: 0em;
 }
@@ -119,28 +129,47 @@ body {
 }
 
 .nav_i_h3 {
-    font-family: "montserrat_reg";
-    /* font-family: "lato_thin"; */
+    /* font-family: "montserrat_reg"; */
+    font-family: "source_sans_pro";
     font-size: 14px;
     color: white;
     /* font-weight: 100; */
     line-height: 20px;
     letter-spacing: 0.1em;
+    transition: 1s;
+}
+.nav-item:hover {
+    /* background-color: red !important ; */
+    border-bottom: 2px solid var(--bg-orange2);
 }
 .active {
     font-weight: 900;
     color: var(--bg-orange2) !important;
+    border-bottom: 2px solid var(--bg-orange2) !important ;
 }
 .i_p {
     /* font-family: "montserrat_med"; */
-    font-family: "avenir_reg";
-    font-weight: 300;
+    font-family: "source_sans_pro";
+    font-weight: 400;
     line-height: 22px;
 }
-.i_p_bold {
-    font-family: "avenir_reg";
+.i_p_lato {
+    /* font-family: "montserrat_med"; */
+    /* font-family: "lato_light";
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 400;
+    line-height: 22px; */
+    color: #000;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.i_p_bold {
+    font-family: "source_sans_pro";
+    font-size: 18px;
+    font-weight: 400;
     line-height: 18px;
     /* text-align: left; */
 }
@@ -417,3 +446,6 @@ a {
 .card-img-top:hover {
     transform: scale(1.2);
 }
+/* .carousel-indicators [data-bs-target] {
+    background-color: #ee844f !important;
+} */

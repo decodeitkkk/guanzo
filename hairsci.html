@@ -13,11 +13,24 @@
     <link rel="stylesheet" href="css/hairsci.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/contact.css">
+    <style>
+        img:hover {
+            transition: 1s !important;
+            transform: scale(1.2) !important;
+        }
+
+        .text-dark:hover,
+        .head_hover:hover {
+            color: var(--bg-orange2) !important;
+            transition: all 0.5 ease;
+
+        }
+    </style>
 </head>
 
 <body class="d_white">
     <!-------------------------------------------< PreHeading >------------------------------------>
-    <div class="preheading fixed-top bg-dark text-white d-flex justify-content-between ">
+    <!-- <div class="preheading fixed-top bg-dark text-white d-flex justify-content-between ">
 
         <span class="text-start">
             <span class="mx-2"> <i class="fa fa-envelope" aria-hidden="true"></i>
@@ -35,9 +48,9 @@
                 <i class="fab fa-instagram"></i>
             </a>
         </span>
-    </div>
+    </div> -->
     <!-----------------------------< NAVBAR >-------------------------------->
-    <nav style="margin-top: 30px;border-bottom : 2px solid #ee844f;"
+    <nav style="margin-top: 0px;border-bottom : 2px solid #ee844f;"
         class="navbar navbar-expand-lg d_white fixed-top  navbar-dark z-2    ">
 
         <div class="container-fluid d-flex flex-row align-items-baseline pe-4 ">
@@ -56,13 +69,13 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
+                        <li class="nav-item mx-2 ">
                             <a class="nav-link nav_i_h3 text-dark     " aria-current="page" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item mx-2">
                             <a class="nav-link nav_i_h3 text-dark  active " href="hairsci.html">Hair Science</a>
                         </li>
-                        <li class="nav-item  dropdown">
+                        <li class="nav-item mx-2  dropdown">
                             <a class="nav-link nav_i_h3 text-dark dropdown-toggle" href="products.html" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Products
@@ -88,22 +101,24 @@
                             </ul>
                         </li>
 
-                        <li class="nav-item  dropdown">
-                            <a class="nav-link nav_i_h3 text-dark dropdown-toggle" href="about.html" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                About Us
+                        <li class="nav-item mx-2  ">
+                            <a class="nav-link nav_i_h3 text-dark  " href="about.html">
+                                Our Story
                             </a>
-                            <ul class="dropdown-menu bg_orange boxShadow " style="background-color: #fff;">
-                                <li><a class="dropdown-item nav_i_h3 text-dark my-2" href="about.html">About Company</a>
-                                </li>
 
-                                <li><a class="dropdown-item nav_i_h3 text-dark my-2"
-                                        href="testimonial.html">Testimonial</a>
-                                </li>
-                            </ul>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item mx-2">
                             <a class="nav-link nav_i_h3 text-dark " href="contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item mx-2 ">
+                            <a class="nav-link nav_i_h3 text-dark " href="#">
+                                <i class="fa-brands fa-facebook-f fs-5 "></i>
+                            </a>
+                        </li>
+                        <li class="nav-item mx-2 ">
+                            <a class="nav-link nav_i_h3 text-dark " href="#">
+                                <i class="fab fa-instagram fs-5"></i>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -113,7 +128,13 @@
 
         </div>
     </nav>
-    <div style="height: 140px;">.</div>
+    <div style="height: 68px;">.</div>
+
+    <div style="margin-top: 0px;" class="preheading text-white bg-dark   d-flex   justify-content-between ">
+
+
+        <marquee class="i_p">Your Styling Partner-Guanzo</marquee>
+    </div>
 
     <!-----------------------------< TITLE >-------------------------------->
 
@@ -124,12 +145,12 @@
             <div class="row d-flex align-items-center justify-content-around px-5 py-5 ">
                 <div class="col-md-6 py-3   ">
                     <div class="i_h2 text-center ">
-                        <a href="./hair/h1.html" class="text-decoration-none text-dark ">
+                        <a href="./hair/h1.html" class="text-decoration-none text-dark head_hover ">
                             How to choose right hair product for your hair type ?
                         </a>
                     </div>
-                    <div class="i_p text-center ">
-                        <a href="./hair/h1.html" class="text-decoration-none text-dark ">
+                    <div class="i_p text-center  ">
+                        <a href="./hair/h1.html" class="text-decoration-none text-dark   ">
                             Indian hair is typically thick, coarse, and prone to dryness. It is also often damaged by
                             heat
                             styling and environmental factors.Choosing the right hair products tailored to your hair
@@ -139,22 +160,22 @@
                             and susceptibility to dryness, demands special attention. Here's how to select the perfect
                             products
                             for your hair type, along with a range of Guanzo products designed to elevate your hair care
-                            game.
+                            game<span class="t_orange">...read more</span>
                         </a>
                     </div>
                 </div>
 
-                <div class="col-md-5 py-3 ">
-                    <a href="./hair/h1.html" class="text-decoration-none">
-                        <img src="assets/hair/blog_img_1.jpg" class="w-100" alt="">
+                <div class="col-md-5 py-3 overflow-hidden ">
+                    <a href="./hair/h1.html" class="text-decoration-none   ">
+                        <img src="assets/hair/blog_img_1.png" class="w-100 " alt="">
                     </a>
                 </div>
             </div>
 
             <div class="row d-flex align-items-center justify-content-around px-5 py-5 ">
-                <div class="col-md-5 py-3 ">
+                <div class="col-md-5 py-3 overflow-hidden">
                     <a href="./hair/h2.html" class="text-decoration-none">
-                        <img src="assets/hair/blog_img_2.jpg" class="w-100" alt="">
+                        <img src="assets/hair/blog_img_2.png" class="w-100" alt="">
                     </a>
                 </div>
                 <div class="col-md-6 py-3   ">
@@ -174,7 +195,7 @@
                             comprehensive guide,
                             we'll explore Guanzo's exceptional hair spa repair treatments, each carefully crafted to
                             meet the unique
-                            needs of your hair type.
+                            needs of your hair type<span class="t_orange">...read more</span>
                         </a>
                     </div>
                 </div>
@@ -200,22 +221,22 @@
                             maintenance, potential
                             side effects, and how to extend their lifespan while addressing the question of whether
                             keratin can
-                            damage your hair.
+                            damage<span class="t_orange">...read more</span>
                         </a>
                     </div>
                 </div>
 
-                <div class="col-md-5 py-3 ">
+                <div class="col-md-5 py-3 overflow-hidden">
                     <a href="./hair/h3.html" class="text-decoration-none">
-                        <img src="assets/hair/blog_img_1.jpg" class="w-100" alt="">
+                        <img src="assets/hair/blog_img_3.png" class="w-100" alt="">
                     </a>
                 </div>
             </div>
 
             <div class="row d-flex align-items-center justify-content-around px-5 py-5 ">
-                <div class="col-md-5 py-3 ">
+                <div class="col-md-5 py-3 overflow-hidden">
                     <a href="./hair/h4.html" class="text-decoration-none">
-                        <img src="assets/hair/blog_img_4.jpg" class="w-100" alt="">
+                        <img src="assets/hair/blog_img_4.png" class="w-100" alt="">
                     </a>
                 </div>
                 <div class="col-md-6 py-3   ">
@@ -237,7 +258,7 @@
                             special focus on
                             the Guanzo Hair Dryer and Guanzo Hair Spray, to help you elevate your hair game and create
                             stunning
-                            looks effortlessly.
+                            looks effortlessly<span class="t_orange">...read more</span>
                         </a>
                     </div>
                 </div>
@@ -246,7 +267,7 @@
             <div class="row d-flex align-items-center justify-content-around px-5 py-5 ">
                 <div class="col-md-6 py-3   ">
                     <div class="i_h2 text-center ">
-                        <a href="./hair/h5.html" class="text-decoration-none text-dark ">
+                        <a href="./hair/h5.html" class="text-decoration-none text-dark head_hover ">
                             Your Complete Hair Care Guide for Every
                             Season and Occasion with Guanzo Products
                         </a>
@@ -261,14 +282,15 @@
                             extensive
                             guide, we'll delve deeper into how to care for your hair in various seasons and during
                             special
-                            occasions, and how Guanzo's hair products can be your trusted companions.
+                            occasions, and how Guanzo's hair products can be your trusted companions<span
+                                class="t_orange">...read more</span>
                         </a>
                     </div>
                 </div>
 
-                <div class="col-md-5 py-3 ">
+                <div class="col-md-5 py-3 overflow-hidden   ">
                     <a href="./hair/h5.html" class="text-decoration-none">
-                        <img src="assets/hair/blog_img_5.jpg" class="w-100" alt="">
+                        <img src="assets/hair/blog_img_5.jpeg" class="w-100" alt="">
                     </a>
                 </div>
             </div>
