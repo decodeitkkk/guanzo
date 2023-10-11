@@ -143,7 +143,7 @@ body {
     border-bottom: 2px solid var(--bg-orange2);
 }
 .active {
-    font-weight: 900;
+    /* font-weight: 900; */
     color: var(--bg-orange2) !important;
     border-bottom: 2px solid var(--bg-orange2) !important ;
 }
@@ -449,3 +449,8 @@ a {
 /* .carousel-indicators [data-bs-target] {
     background-color: #ee844f !important;
 } */
+
+.zoom:hover {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.4);
+}
