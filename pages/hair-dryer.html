@@ -13,32 +13,22 @@
     <link rel="stylesheet" href="../css/hairsci.css">
     <link rel="stylesheet" href="../css/contact.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/tests.css">
+    <!-- SLICK MIN JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- SLICK THEME MIN JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body class="d_white">
-    <!-------------------------------------------< PreHeading >------------------------------------>
-    <div class="preheading fixed-top bg-dark text-white d-flex justify-content-between ">
-
-        <span class="text-start">
-            <span class="mx-2"> <i class="fa fa-envelope" aria-hidden="true"></i>
-                &nbsp; abcd@gmail.com</span> <span class="mx-2"> <i class="fa fa-phone" aria-hidden="true"></i>
-                &nbsp; 123456789</span>
-        </span>
-        <span class="me-3">
-            <a href="#" class="text-white text-decoration-none mx-2 ">
-                <i class="fa-brands fa-facebook-f"></i>
-            </a>
-            <a href="#" class="text-white text-decoration-none mx-2 ">
-                <i class="fa-brands fa-x-twitter"></i>
-            </a>
-            <a href="#" class="text-white text-decoration-none mx-2 ">
-                <i class="fab fa-instagram"></i>
-            </a>
-        </span>
-    </div>
     <!-----------------------------< NAVBAR >-------------------------------->
-    <nav style="margin-top: 30px;" class="navbar fixed-top  navbar-expand-lg bg_orange navbar-dark navShadow">
-        <div class="container-fluid d-flex justify-content-center flex-column ">
+    <nav style="margin-top: 0px;" class="navbar fixed-top  navbar-expand-lg bg_orange navbar-dark navShadow ">
+        <div class="container-fluid d-flex flex-row align-items-baseline pe-4  ">
             <div class="row"><a href='../index.html'>
                     <img src="../assets/Final Creative Shots/logo-guanzo.png" style="max-height: 50px;  " alt="">
                 </a></div>
@@ -50,18 +40,18 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
+                        <li class="nav-item mx-2 ">
                             <a class="nav-link nav_i_h3 text-dark    " aria-current="page" href="../index.html">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item mx-2 ">
                             <a class="nav-link nav_i_h3 text-dark   " href="../hairsci.html">Hair Science</a>
                         </li>
-                        <li class="nav-item  dropdown">
+                        <li class="nav-item mx-2   dropdown">
                             <a class="nav-link nav_i_h3 text-dark active dropdown-toggle" href="../products.html"
                                 role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Products
                             </a>
-                            <ul class="dropdown-menu boxShadow bg_orange nav_i_h3 text-dark py-2 ">
+                            <ul class="dropdown-menu dow bg_orange boxShadow nav_i_h3 text-dark py-2 ">
                                 <li><a class="dropdown-item nav_i_h3 text-dark my-2 " href="../c-hairspa.html">Hair
                                         Spa</a></li>
 
@@ -81,23 +71,25 @@
                             </ul>
                         </li>
 
-                        <li class="nav-item  dropdown">
-                            <a class="nav-link nav_i_h3 text-dark  dropdown-toggle" href="../about.html" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                About Us
+                        <li class="nav-item mx-2   ">
+                            <a class="nav-link nav_i_h3 text-dark " href="../about.html" role="button">
+                                our story
                             </a>
-                            <ul class="dropdown-menu boxShadow bg_orange ">
-                                <li><a class="dropdown-item nav_i_h3 text-dark my-2 " href="../about.html">About
-                                        Company</a></li>
 
-                                <li><a class="dropdown-item nav_i_h3 text-dark my-2 "
-                                        href="../testimonial.html">Testimonial</a>
-                                </li>
-                            </ul>
                         </li>
 
-                        <li class="nav-item">
+                        <li class="nav-item mx-2 ">
                             <a class="nav-link nav_i_h3 text-dark " href="../contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item mx-2 ">
+                            <a class="nav-link nav_i_h3 text-dark " href="#">
+                                <i class="fa-brands fa-facebook-f fs-5 "></i>
+                            </a>
+                        </li>
+                        <li class="nav-item mx-2 ">
+                            <a class="nav-link nav_i_h3 text-dark " href="#">
+                                <i class="fab fa-instagram fs-5"></i>
+                            </a>
                         </li>
 
                     </ul>
@@ -106,7 +98,11 @@
         </div>
 
     </nav>
-    <div style="height: 90px;">.</div>
+    <div style="height: 68px;">.</div>
+
+    <div style="margin-top: 0px;" class="preheading text-white bg-dark   d-flex   justify-content-between ">
+        <marquee class="i_p">Your Styling Partner - Guanzo</marquee>
+    </div>
 
     <!-----------------------------< TITLE >-------------------------------->
 
@@ -150,10 +146,11 @@
                 <div class="i_h2 d-flex justify-content-center text-center ">Elevate Your Hair Game with the Guanzo
                     Professional Superdryer 2800 Watts
                 </div>
-                <div class="i_h3 d-flex justify-content-around" style="letter-spacing: 2px;"> Your Perfect Styling
+                <div class="i_h3 text-center " style="letter-spacing: 2px;"> Your Perfect Styling
                     Partner!</div>
             </div>
-            <div class="row bg-white d-flex align-items-start pt-5 pb-5 ">
+
+            <div class="row   bg-white d-flex align-items-start pt-5 pb-5 ">
                 <div class="col-md-6">
                     <!-- imges ui -->
                     <div class="container mt-5">
@@ -179,8 +176,10 @@
                                 </div>
                             </div>
                             <div class="col-9">
-                                <img id="main-image" src="../assets/White-Background/Superdryer-02.jpg" alt="Main Image"
-                                    class="object-fit-contain border  ">
+                                <div class="overflow-hidden border">
+                                    <img id="main-image" src="../assets/White-Background/Superdryer-02.jpg"
+                                        alt="Main Image" class="object-fit-contain zoom  ">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -196,10 +195,10 @@
                     </div>
                 </div>
             </div>
-
-
-            <div class="row bg-white   ">
-                <div class="col-md-6 " style="border-right:1px solid #262626;">
+        </div>
+        <div class="container-fluid">
+            <div class="row px-md-5 bg-white border-top border-secondary border-bottom ">
+                <div class="col-md-6 pt-5 pb-3 " style="border-right:1px solid #262626;">
                     <div class="i_h3 my-3 px-2 ">Benefits</div>
                     <div class="i_p px-2 ">
                         Experience the magic of salon-quality results without leaving your home or salon. The Guanzo
@@ -231,9 +230,9 @@
 
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6  pt-5 pb-3">
                     <div class="i_h3 px-2 my-4">Key Features</div>
-                    <ul>
+                    <ul class="i_p" >
                         <li>
                             2800-Watt Motor: The Guanzo Professional Superdryer boasts an impressive 2800-watt motor,
                             delivering an ultra-powerful airflow that dramatically reduces drying time. Say goodbye to
@@ -281,6 +280,210 @@
     </section>
 
 
+    <!------------------------------< TESTIMONIAL SECTION >-------------------------------->
+    <section class=" container-fluid py-5 ">
+        <div class="container ">
+            <div class="row  d-flex align-items-baseline ">
+                <div class="col-md-12  text-center ">
+                    <div class="i_h2">What Our Customers Says </div>
+                    <div class="i_p_bold">Our customers praise our exceptional service, reliability, and dedication to
+                        exceeding their expectations. <br> See what they say about us</div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--=========================== CAROUSALS  -->
+        <div class="container-fluid position-relative  overflow-hidden ">
+
+            <div class=" two-time row  ">
+                <div class="">
+                    <section class="p-4   p-md-5 text-center text-lg-start ">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-10">
+                                <div class="card bg_second ">
+                                    <div class="card-body  m-3">
+                                        <div class="row ">
+                                            <div
+                                                class="col-lg-4 d-flex justify-content-center align-items-center mb-4 mb-lg-0">
+                                                <img src="../assets/hair/neha.jpeg" class="rounded-circle img-fluid "
+                                                    alt="woman avatar" width="200" height="200" />
+                                            </div>
+                                            <div data-aos="fade-right" class="col-lg-8">
+                                                <p class=" text-dark i_h3  mb-2">Neha </p>
+                                                <p class=" text-dark i_h3 fs-6  mb-4"> 👍👍👍 </p>
+                                                <p class="text-dark fw-normal i_p_lato ">
+                                                    "I've struggled with an itchy scalp and dandruff for years, and I've
+                                                    tried countless products to find relief. Guanzo's Hair Spa Tea Tree
+                                                    has been a game-changer for me. After just a few uses, my scalp
+                                                    feels refreshed, and the itching has reduced significantly. Plus,
+                                                    the tea tree aroma is so soothing. It's become a staple in my hair
+                                                    care routine, and I can't recommend it enough!"
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="">
+                    <section class="p-4  bg_sirip p-md-5 text-center text-lg-start ">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-10">
+                                <div class="card bg_second ">
+                                    <div class="card-body  m-3">
+                                        <div class="row ">
+                                            <div
+                                                class="col-lg-4 d-flex justify-content-center align-items-center mb-4 mb-lg-0">
+                                                <img src="../assets/hair/melody.jpeg" class="rounded-circle img-fluid "
+                                                    alt="woman avatar" width="200" height="200" />
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <p class=" text-dark i_h3  mb-2">Melody</p>
+                                                <p class=" text-dark i_h3 fs-6 mb-4"> 🌟🌟🌟🌟🌟 </p>
+                                                <p class="text-dark fw-normal i_p_lato ">
+                                                    "I've been dealing with frizzy and unmanageable hair for as long as
+                                                    I can remember. After doing some research, I decided to try Guanzo's
+                                                    Keratin Treatment pH+ Shampoo along with their Keratin Treatment.
+                                                    The results were incredible! My hair is smoother, shinier, and more
+                                                    manageable than ever. I'm amazed at how well these products have
+                                                    worked for me. It's like a salon treatment at home."
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="">
+                    <section class="p-4 bg_sirip  p-md-5 text-center text-lg-start ">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-10">
+                                <div class="card bg_second ">
+                                    <div class="card-body  m-3">
+                                        <div class="row ">
+                                            <div
+                                                class="col-lg-4 d-flex justify-content-center align-items-center mb-4 mb-lg-0">
+                                                <img src="../assets/hair/tracy.jpeg" class="rounded-circle img-fluid "
+                                                    alt="woman avatar" width="200" height="200" />
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <p class=" text-dark i_h3  mb-2"> Tracy </p>
+                                                <p class=" text-dark i_h3 fs-6 mb-4"> ♥️♥️♥️♥️♥️ </p>
+                                                <p class="text-dark fw-normal i_p_lato ">
+                                                    "I have dry and damaged hair due to constant heat styling, and I've
+                                                    been on the hunt for a serum that truly hydrates and repairs my
+                                                    locks. Guanzo's Hair Serum Morocco Oil is a lifesaver. It not only
+                                                    adds a beautiful shine to my hair but also tames frizz and split
+                                                    ends. My hair feels softer and healthier, and I can't imagine my
+                                                    routine without it."
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="">
+                    <section class="p-4 bg_sirip  p-md-5 text-center text-lg-start ">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-10">
+                                <div class="card bg_second ">
+                                    <div class="card-body  m-3">
+                                        <div class="row ">
+                                            <div
+                                                class="col-lg-4 d-flex justify-content-center align-items-center mb-4 mb-lg-0">
+                                                <img src="../assets/hair/deeksha.jpeg" class="rounded-circle img-fluid "
+                                                    alt="woman avatar" width="200" height="200" />
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <p class=" text-dark i_h3  mb-2"> Deeksha </p>
+                                                <p class=" text-dark i_h3 fs-6 mb-4"> 😍😍😍😍 </p>
+                                                <p class="text-dark fw-normal i_p_lato ">
+                                                    "I recently upgraded my hair dryer to one from Guanzo, and I'm
+                                                    thrilled with the results. The variety of designs and wattages
+                                                    they offer allowed me to choose the perfect dryer for my needs.
+                                                    Not only does it dry my hair quickly, but it also leaves it
+                                                    looking smoother and less frizzy. It's a reliable and stylish
+                                                    addition to my hair care routine."
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="">
+                    <section class="p-4 bg_sirip  p-md-5 text-center text-lg-start ">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-10">
+                                <div class="card bg_second ">
+                                    <div class="card-body  m-3">
+                                        <div class="row ">
+                                            <div
+                                                class="col-lg-4 d-flex justify-content-center align-items-center mb-4 mb-lg-0">
+                                                <img src="../assets/hair/riya.jpeg" class="rounded-circle img-fluid "
+                                                    alt="woman avatar" width="200" height="200" />
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <p class=" text-dark i_h3  mb-2"> Riya </p>
+                                                <p class=" text-dark i_h3 fs-6 mb-4"> 🤩🤩🤩🤩🤩 </p>
+                                                <p class="text-dark fw-normal i_p_lato ">
+                                                    "As someone who loves experimenting with different hairstyles,
+                                                    I've tried my fair share of hair sprays. Guanzo's Enzo Hair
+                                                    Spray, in particular, has become my go-to choice. I appreciate
+                                                    that they offer different strengths, so I can achieve the hold I
+                                                    need without making my hair feel stiff. Whether it's for a
+                                                    casual day or a special event, this hair spray always delivers."
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-between  ">
+                <button class="car_prev_btn2 btn_man1 me-3"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12.9467 7.88379L2.82078 7.88379" stroke="white" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M6.9632 12.0261L2.82075 7.88368L6.9632 3.74124" stroke="white" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+                <button class="car_next_btn2 btn_man2"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.82089 7.88403L12.9469 7.88404" stroke="white" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M8.80444 3.7417L12.9469 7.88414L8.80444 12.0266" stroke="white" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+
+
+        <!--=========================== CAROUSALS ENDS HERE  -->
+
+    </section>
+
 
     <!-------------------------------------< RECOMMENDED PRODUCTS  >--------------------------->
     <!-------------------------------------< yet to export  >--------------------------->
@@ -288,11 +491,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div data-aos="fade-up" class="i_h3 text-center mb-3 "> Recommended Products For You </div>
-                    <p class="i_p mx-2 mx-md-5 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A
-                        tempore quisquam
-                        laudantium libero dolores obcaecati nostrum amet quod, debitis facere eveniet laborum maiores
-                        cumqu</p>
+                    <div data-aos="fade-up" class="i_h2 text-center mb-3 "> Recommended Products For You </div>
+                    <p class="i_p_bold mx-2 mx-md-5 text-center">Discover personalized product recommendations curated
+                        just for you – the perfect solutions to meet your unique needs and preferences.</p>
                 </div>
                 <div class="row row-cols-12 row-cols-md-4 g-4">
                     <div class="col  d-flex justify-content-center ">
@@ -428,97 +629,91 @@
 
     <!--=====================================< FOOTER STARTS HERE >==========================-->
 
-    <footer class="text-center text-light bg_black ">
-        <!-- Grid container -->
-        <div class="container">
-            <!-- Section: Links -->
-            <section class="">
-                <!-- Grid row-->
-                <div class="row text-center d-flex justify-content-center pt-5">
-                    <!-- Grid column -->
-                    <div class="col-md-2">
-                        <h6 class="text-uppercase font-weight-bold">
-                            <a href="../about.html" class="text-light text-decoration-none ">About us</a>
-                        </h6>
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-md-2">
-                        <h6 class="text-uppercase font-weight-bold">
-                            <a href="../products.html" class="text-light text-decoration-none ">Products</a>
-                        </h6>
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-md-2">
-                        <h6 class="text-uppercase font-weight-bold">
-                            <a href="../contact.html" class="text-light text-decoration-none ">Contact</a>
-                        </h6>
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-md-2">
-                        <h6 class="text-uppercase font-weight-bold">
-                            <a href="../hairsci.html" class="text-light text-decoration-none ">Hair Science</a>
-                        </h6>
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-md-2">
-                        <h6 class="text-uppercase font-weight-bold">
-                            <a href="../about.html" class="text-light text-decoration-none ">About</a>
-                        </h6>
-                    </div>
-                    <!-- Grid column -->
+    <footer class=" bg_black text-light  py-5 px-0 mx-0">
+        <div class="container-fluid ">
+            <div class="row d-flex justify-content-around ">
+                <div class=" col-sm-4 ">
+                    <img src="../assets/Final Creative Shots/logo-guanzo.png" class="w-50  " alt="">
                 </div>
-                <!-- Grid row-->
-            </section>
-            <!-- Section: Links -->
-        </div>
+                <div class="col-sm-2">
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+            <div class="row d-flex justify-content-around align-items-baseline ">
+                <div class="col-sm-4 ">
+                    <div class="i_p text-left ">
+                        Gaunzo embarked on a journey fueled by an unwavering commitment to transforming hair care
+                        routines. We recognized the need for advanced hair care solutions that combine the essence
+                        of luxury with the convenience of everyday use.
+                    </div>
+                    <div class="i_h3 pt-5 pb-3">
+                        Sign Up To Get First Access, About Our New Styles, Sales, Events
+                    </div>
+                    <div class="row">
+                        <div class="col-8 ">
+                            <input style="background-color: white;" class="form-control me-2 mb-3" type="email"
+                                placeholder="email@domain.name" aria-label="Search">
+                        </div>
+                        <div class="col-4">
+                            <input type="submit" class="btn btn-dark rounded d_white text-dark " value="Submit">
 
-        <hr class="" />
-        <div class="container">
-            <!-- Section: Text -->
-            <section class="">
-                <div class="row d-flex justify-content-center">
-                    <div class="col-lg-8">
-                        <img src="../assets/Final Creative Shots/logo-guanzo.png" class="w-25" alt="">
-                        <p class="i_p">
-                            Gaunzo embarked on a journey fueled by an unwavering commitment to transforming hair care routines. We recognized the need for advanced hair care solutions that combine the essence of luxury with the convenience of everyday use.
-                        </p>
+                        </div>
                     </div>
                 </div>
-            </section>
-            <!-- Section: Text -->
+                <div class="col-sm-2 d-flex align-items-base justify-content-center flex-column ">
+                    <div class="i_h3 text-uppercase ">Useful Links</div>
+                    <div class="i_p">
+                        <ul style="list-style-type: none;">
+                            <li>
+                                <a href="about.html" class="text-light text-decoration-none ">About </a>
+                            </li>
+                            <li>
+                                <a href="products.html" class="text-light text-decoration-none ">Home</a>
+                            </li>
+                            <li>
+                                <a href="contact.html" class="text-light text-decoration-none ">Contact</a>
+                            </li>
+                            <li>
+                                <a href="hairsci.html" class="text-light text-decoration-none ">Hair Science</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3 d-flex align-items-start justify-content-center flex-column ">
+                    <div class="i_h3 text-uppercase ">Our Collections</div>
+                    <div class="i_p  ">
+                        <ul style="list-style-type: none; line-height: 23px; ">
+                            <li>
+                                <a href="c-hairspa.html" class="text-light text-decoration-none ">Hair Spa</a>
+                            </li>
+                            <li>
+                                <a href="c-keratine.html" class="text-light text-decoration-none ">Keratine
+                                    Treatments</a>
+                            </li>
+                            <li>
+                                <a href="c-spray.html" class="text-light text-decoration-none ">Hair Sprays</a>
+                            </li>
+                            <li>
+                                <a href="c-serum.html" class="text-light text-decoration-none ">Hair Serums</a>
+                            </li>
+                            <li>
+                                <a href="c-dryer.html" class="text-light text-decoration-none ">Hair Dryers</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-            <!-- Section: Social -->
-            <section class="text-center mb-5">
+            <!-- Copyright -->
+            <hr />
+            <div class="text-center i_p bg_black ">
+                © Copyright 2023
+            </div>
 
-                <a href="#" class="text-light text-decoration-none me-4">
-                    <i class="fa-brands fa-facebook-f"></i>
-                </a>
-                <a href="#" class="text-light text-decoration-none me-4">
-                    <i class="fa-brands fa-x-twitter"></i>
-                </a>
-                <a href="#" class="text-light text-decoration-none me-4">
-                    <i class="fab fa-instagram"></i>
-                </a>
-
-            </section>
-            <!-- Section: Social -->
         </div>
-        <!-- Grid container -->
-
-        <!-- Copyright -->
-        <div class="text-center i_p p-3">
-            © Copyright 2023
-        </div>
-
     </footer>
+
+
 
 
 
@@ -535,6 +730,17 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="../js/script.js"></script>
+
+    <!--L QUERRY MIN JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!--SLICK MIN JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../js/tests.js"></script>
     <script>
         AOS.init({
             duration: 400,

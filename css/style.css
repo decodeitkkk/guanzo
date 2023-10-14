@@ -83,6 +83,9 @@ body {
 .bg_orange {
     background-color: var(--bg-orange);
 }
+.border_t_orange {
+    border: 2px solid var(--bg-orange2);
+}
 .t_orange {
     color: var(--bg-orange2);
 }
@@ -109,7 +112,7 @@ body {
     /* font-size: 32px; */
     font-weight: 400;
     line-height: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     letter-spacing: 0em;
 }
 .i_h3 {
@@ -169,8 +172,9 @@ body {
 .i_p_bold {
     font-family: "source_sans_pro";
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 18px;
+    font-weight: 500;
     /* text-align: left; */
 }
 
@@ -207,8 +211,8 @@ body {
     }
 
     .i_h3 {
-        font-size: px;
-        line-height: 22px;
+        font-size: 24px;
+        /* line-height: 22px; */
     }
 
     .i_p {
@@ -217,7 +221,7 @@ body {
     }
 
     .i_p_bold {
-        font-size: 12px;
+        font-size: 16px;
         line-height: 16px;
     }
     /* .b_card_width {
@@ -451,6 +455,73 @@ a {
 } */
 
 .zoom:hover {
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease;
     transform: scale(1.4);
+}
+
+/*-----------------------------------------< BLOG SECTION >------------------------------*/
+.bg-secondary {
+    opacity: 0.7;
+    background: #454545;
+
+    backdrop-filter: blur(18.5px);
+    color: white;
+}
+.b_orange {
+    color: #ff8a00;
+    text-align: center;
+    font-family: "source_sans_pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.text_man {
+    font-size: 16px;
+}
+
+.iimg {
+    /* width: 300px; */
+    position: relative;
+    overflow: hidden;
+}
+
+.text {
+    position: absolute;
+    transition: all 0.3s ease;
+    bottom: -100%;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+.card_hover:hover .text {
+    bottom: 0;
+}
+
+.blog_btn_man1 {
+    position: absolute;
+    left: 10px;
+    top: 45%;
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    border: 0px;
+    background: #dbd3c7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog_btn_man2 {
+    position: absolute;
+    right: 10px;
+    top: 45%;
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    border: 0px;
+    background: #dbd3c7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

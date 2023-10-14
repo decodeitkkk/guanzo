@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/marquee_animation.css">
     <link rel="stylesheet" href="css/hscroll.css">
+    <link rel="stylesheet" href="css/tests.css">
     <!-- SLICK MIN JS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
         integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
@@ -26,43 +27,6 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <style>
-        .text_man {
-            font-size: 16px;
-        }
-
-        .card_hover:hover .card_img {
-            transition: all 0.3s linear;
-            transform: scale(1.4);
-        }
-
-        .btn_man1 {
-            position: absolute;
-            left: 10px;
-            top: 50%;
-            width: 35px;
-            height: 35px;
-            border-radius: 100px;
-            border: 0px;
-            background: #DBD3C7;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .btn_man2 {
-            position: absolute;
-            right: 10px;
-            top: 50%;
-            width: 35px;
-            height: 35px;
-            border-radius: 100px;
-            border: 0px;
-            background: #DBD3C7;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
         .b_card_width {
             width: 18rem;
         }
@@ -226,15 +190,6 @@
                     </svg>
                 </button>
             </div>
-
-
-
-
-
-
-
-
-
         </div>
 
 
@@ -248,9 +203,8 @@
         <div class="container px-md-5 ">
             <div class="row mt-md-5 mt-3 d-flex justify-content-center ">
                 <div class="col-8 text-center  ">
-                    <div class="i_h2">Our Featured Products</div>
-                    <p class="i_p  ">Discover our premium haircare solution, formulated for stunning results. Achieve
-                        healthier, shinier locks with our featured hair product today
+                    <div class="i_h2">Handpicked Selections</div>
+                    <p class="i_p  ">Discover our premium haircare solution, formulated for stunning results.
                     </p>
                 </div>
             </div>
@@ -417,7 +371,42 @@
 
     </section>
 
-    <!-------------------------------------------------ABOUT SECTION -->
+    <!---===============================< marquee element >===================================-->
+    <section class="logoMarqueeSection py-5 ">
+        <div class="container-fluid  " id="logoMarqueeSection">
+            <div class="default-content-container flex items-center" style="overflow: hidden;">
+                <div class="default-content-container-inner marquee-wrapper relative overflow-hidden inline-block">
+
+                    <div class="marquee" style="animation-duration: 30s;">
+                        <a target="_blank">
+                            <img src="assets/hair/cruelty-free.png" title="" class="marqueelogo"
+                                style="width: auto; max-width: none;">
+                            <div class="i_p">Cruelty Free</div>
+                        </a>
+                        <a target="_blank"><img src="assets/hair/FDA-approved.png" title="" class="marqueelogo"
+                                style="width: auto; max-width: none;">
+                            <div class="i_p">FDA Approved</div>
+                        </a>
+                        <a target="_blank"><img src="assets/hair/Gluten-Free.png" title="" class="marqueelogo"
+                                style="width: auto; max-width: none;">
+                            <div class="i_p">Gluten Free</div>
+                        </a>
+                        <a target="_blank"><img src="assets/hair/leaping-bunny.png" title="" class="marqueelogo"
+                                style="width: auto; max-width: none;">
+                            <div class="i_p"> Leaping Bunny </div>
+                        </a>
+                        <a target="_blank"><img src="assets/hair/Sulphate-Free.png" title="" class="marqueelogo"
+                                style="width: auto; max-width: none;">
+                            <div class="i_p"> Sulphate Free </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------------------------------VIDEO 1 SECTION -->
     <section class="my-5 py-0 py-md-5   bg_sirpi " style="background-color: #DBD3C7;">
         <div class="">
             <div class="container-fluid">
@@ -431,30 +420,14 @@
                         </video>
                     </div>
                     <div data-aos="fade-up" class=" mb-3 mb-lg-0  col-lg-5 col-10">
-                        <div class="i_h2 mt-3">
-                            <span style="font-size:70px;">E</span>levating Your Hair Care Experience with
-                            Innovation and Excellence
-                        </div>
-                        <div class="i_p_bold">Your Styling Partner Guanzo</div>
-                        <!-- <div class="i_p  ">
-                        Welcome to Gaunzo, your partner in achieving flawless, salon-worthy hair from the comfort of
-                        your home. With a legacy that fuses decades of expertise cutting-edge innovation, we stand as a
-                        family-driven enterprise that has become a trailblazer in the Indian hair care
-                        industry,particularly renowned for our exceptional range of hair care products.
-                    </div>
-                    <br>
-                    <div class="i_p  ">
-                        Founded in 2002, Gaunzo embarked on a journey fueled by an unwavering commitment to transforming
-                        hair care routines. We recognized the need for advanced hair care solutions that combine the
-                        essence of luxury with the convenience of everyday use. Over the years, our dedicated team has
-                        blended their passion for hair care with state-of-the-art technology to create products that
-                        redefine excellence.
+                        <a href="about.html" class="text-decoration-none text-black ">
+                            <div class="i_h2 mt-3">
+                                <span style="font-size:70px;">E</span>levating Your Hair Care Experience with
+                                Innovation and Excellence
+                            </div>
+                            <div class="i_p_bold">Your Styling Partner Guanzo</div>
+                        </a>
 
-                        At Gaunzo, our spotlight shines on the art of hair care. We understand that every strand is
-                        unique, and we've made it our mission to cater to diverse hair care needs. From revitalizing
-                        serums to indulgent hair spas, from nourishing shampoos to precision hair sprays, our extensive
-                        product range has been meticulously crafted to bring out the best in your hair.
-                    </div> -->
                     </div>
                 </div>
             </div>
@@ -574,7 +547,70 @@
                         </div>
                     </section>
                 </div>
+                <div class="">
+                    <section class="p-4 bg_sirip  p-md-5 text-center text-lg-start ">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-10">
+                                <div class="card bg_second ">
+                                    <div class="card-body  m-3">
+                                        <div class="row ">
+                                            <div
+                                                class="col-lg-4 d-flex justify-content-center align-items-center mb-4 mb-lg-0">
+                                                <img src="assets/hair/deeksha.jpeg" class="rounded-circle img-fluid "
+                                                    alt="woman avatar" width="200" height="200" />
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <p class=" text-dark i_h3  mb-2"> Deeksha </p>
+                                                <p class=" text-dark i_h3 fs-6 mb-4"> 😍😍😍😍 </p>
+                                                <p class="text-dark fw-normal i_p_lato ">
+                                                    "I recently upgraded my hair dryer to one from Guanzo, and I'm
+                                                    thrilled with the results. The variety of designs and wattages
+                                                    they offer allowed me to choose the perfect dryer for my needs.
+                                                    Not only does it dry my hair quickly, but it also leaves it
+                                                    looking smoother and less frizzy. It's a reliable and stylish
+                                                    addition to my hair care routine."
 
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="">
+                    <section class="p-4 bg_sirip  p-md-5 text-center text-lg-start ">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-10">
+                                <div class="card bg_second ">
+                                    <div class="card-body  m-3">
+                                        <div class="row ">
+                                            <div
+                                                class="col-lg-4 d-flex justify-content-center align-items-center mb-4 mb-lg-0">
+                                                <img src="assets/hair/riya.jpeg" class="rounded-circle img-fluid "
+                                                    alt="woman avatar" width="200" height="200" />
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <p class=" text-dark i_h3  mb-2"> Riya </p>
+                                                <p class=" text-dark i_h3 fs-6 mb-4"> 🤩🤩🤩🤩🤩 </p>
+                                                <p class="text-dark fw-normal i_p_lato ">
+                                                    "As someone who loves experimenting with different hairstyles,
+                                                    I've tried my fair share of hair sprays. Guanzo's Enzo Hair
+                                                    Spray, in particular, has become my go-to choice. I appreciate
+                                                    that they offer different strengths, so I can achieve the hold I
+                                                    need without making my hair feel stiff. Whether it's for a
+                                                    casual day or a special event, this hair spray always delivers."
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
             </div>
             <div class="d-flex align-items-center justify-content-between  ">
                 <button class="car_prev_btn2 btn_man1 me-3"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -600,6 +636,36 @@
 
         <!--=========================== CAROUSALS ENDS HERE  -->
 
+    </section>
+
+    <!------------------------------< SECOND VIDEO 2 SECTION >-------------------------------->
+    <section class="my-5 py-0 py-md-5   bg_sirpi " style="background-color: #DBD3C7;">
+        <div class="">
+            <div class="container-fluid">
+                <div class="row d-flex align-items-center justify-content-around ">
+
+                    <div data-aos="fade-up" class=" col-lg-6 my-3 col-12">
+                        <!-- <img src="assets/Final Creative Shots/COMBO-02.jpg" class="w-100 rounded " alt=""> -->
+                        <video controls muted autoplay loop style="width: 100%;">
+                            <source src="assets/hair/final Animation 1.mp4" type="video/mp4">
+                            <source src="assets/hair/final Animation 1.mp4" type=" video/ogg">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div data-aos="fade-up" class=" mb-3 mb-lg-0  col-lg-5 col-10">
+                        <a href="about.html" class="text-decoration-none text-black">
+                            <div class="i_h2 mt-3">
+                                <span style="font-size:70px;">R</span>eveal Your Hair's True Potential with Everyday
+                                Hair
+                                Specialist
+                            </div>
+                            <div class="i_p_bold">Your Styling Partner Guanzo</div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!--==============================< 4 icons  >============================-->
@@ -629,68 +695,11 @@
         </div>
     </section>
 
-    <!------------------------------< SECOND VIDEO SECTION >-------------------------------->
-    <section class="my-5 py-0 py-md-5   bg_sirpi " style="background-color: #DBD3C7;">
-        <div class="">
-            <div class="container-fluid">
-                <div class="row d-flex align-items-center justify-content-around ">
-                    <div data-aos="fade-up" class=" col-lg-6 my-3 col-12">
-                        <!-- <img src="assets/Final Creative Shots/COMBO-02.jpg" class="w-100 rounded " alt=""> -->
-                        <video controls muted autoplay loop style="width: 100%;">
-                            <source src="assets/hair/final Animation 1.mp4" type="video/mp4">
-                            <source src="assets/hair/final Animation 1.mp4" type=" video/ogg">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                    <div data-aos="fade-up" class=" mb-3 mb-lg-0  col-lg-5 col-10">
-                        <div class="i_h2 mt-3">
-                            <span style="font-size:70px;">R</span>eveal Your Hair's True Potential with Everyday Hair
-                            Specialist
-                        </div>
-                        <div class="i_p_bold">Your Styling Partner Guanzo</div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
 
 
-    <!---===============================< marquee element >===================================-->
-    <section class="logoMarqueeSection py-5 ">
-        <div class="container-fluid  " id="logoMarqueeSection">
-            <div class="default-content-container flex items-center" style="overflow: hidden;">
-                <div class="default-content-container-inner marquee-wrapper relative overflow-hidden inline-block">
 
-                    <div class="marquee" style="animation-duration: 30s;">
-                        <a target="_blank">
-                            <img src="assets/hair/cruelty-free.png" title="" class="marqueelogo"
-                                style="width: auto; max-width: none;">
-                            <div class="i_p">Cruelty Free</div>
-                        </a>
-                        <a target="_blank"><img src="assets/hair/FDA-approved.png" title="" class="marqueelogo"
-                                style="width: auto; max-width: none;">
-                            <div class="i_p">FDA Approved</div>
-                        </a>
-                        <a target="_blank"><img src="assets/hair/Gluten-Free.png" title="" class="marqueelogo"
-                                style="width: auto; max-width: none;">
-                            <div class="i_p">Gluten Free</div>
-                        </a>
-                        <a target="_blank"><img src="assets/hair/leaping-bunny.png" title="" class="marqueelogo"
-                                style="width: auto; max-width: none;">
-                            <div class="i_p"> Leaping Bunny </div>
-                        </a>
-                        <a target="_blank"><img src="assets/hair/Sulphate-Free.png" title="" class="marqueelogo"
-                                style="width: auto; max-width: none;">
-                            <div class="i_p"> Sulphate Free </div>
-                        </a>
 
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <!--=====================================< OTHER PLATFORMS >===============================-->
     <!-- <section class="my-5">
         <div class="container-fluid">
@@ -756,9 +765,8 @@
                         Sign Up To Get First Access, About Our New Styles, Sales, Events
                     </div>
                     <div class="row">
-                        <div class="col-8">
-
-                            <input style="background-color: white;" class="form-control me-2" type="email"
+                        <div class="col-8 ">
+                            <input style="background-color: white;" class="form-control me-2 mb-3" type="email"
                                 placeholder="email@domain.name" aria-label="Search">
                         </div>
                         <div class="col-4">
@@ -844,6 +852,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/tests.js"></script>
     <script>
         $('.card_slide').slick({
             dots: true,
@@ -896,17 +905,8 @@
             nextArrow: $('.car_next_btn'),
             // adaptiveHeight: true
         });
-        $('.two-time').slick({
-            dots: true,
-            infinite: true,
-            autoplay: true,
-            speed: 100,
-            slidesToShow: 1,
-            prevArrow: $('.car_prev_btn2'),
-            nextArrow: $('.car_next_btn2'),
-            // adaptiveHeight: true
-        });
     </script>
+
 
     <script src="js/hscroll.js"></script>
     <script>

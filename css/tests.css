@@ -1,0 +1,36 @@
+.text_man {
+    font-size: 16px;
+}
+
+.card_hover:hover .card_img {
+    transition: all 0.3s linear;
+    transform: scale(1.4);
+}
+
+.btn_man1 {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    border: 0px;
+    background: #dbd3c7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_man2 {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    border: 0px;
+    background: #dbd3c7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
